@@ -1,0 +1,12 @@
+<app-converter></app-converter>
+<div class="pt-5 grid grid-cols-1 lg:grid-cols-4 gap-2">
+    <mat-card class="bg-gray-100 p-5" *ngFor="let file of filesData">
+        <mat-card-title class="text-center">{{file.category}}</mat-card-title>
+        <mat-card-content>
+            <ul class="convert-list-items">
+                <li *ngFor="let sub of file.subcategories"><a [href]="sub.toLowerCase()+'-converter'">{{sub}}
+                        Converter</a></li>
+            </ul>
+        </mat-card-content>
+    </mat-card>
+</div>

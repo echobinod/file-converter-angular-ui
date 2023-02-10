@@ -1,0 +1,33 @@
+$primary-color: #e50914;
+
+.primary-color {
+    color:$primary-color;
+}
+.primary-background {
+    background-color: $primary-color;
+}
+.file-dropzone {
+    color: $primary-color;
+}
+@media (min-width: 640px) {
+    table {
+      display: inline-table !important;
+    }
+
+    thead tr:not(:first-child) {
+      display: none;
+    }
+  }
+
+  td:not(:last-child) {
+    border-bottom: 0;
+  }
+
+  th:not(:last-child) {
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+  }
+
+  .mat-form-field-appearance-fill .mat-form-field-flex {
+    border-radius: 4px 4px 0 0;
+    padding: 3px 3px 0 3px;
+}

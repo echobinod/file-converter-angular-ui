@@ -1,0 +1,13 @@
+.convert-list-items li {
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+    font-size: 18px;
+    background-color: #ccc;
+}
+.convert-list-items li:hover {
+    text-decoration:underline;
+}
+.convert-list-items li:nth-child(even) {
+    background-color: transparent;
+  }
